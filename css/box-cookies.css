@@ -1,0 +1,34 @@
+.box-cookies.hide {
+    display: none !important;
+  }
+  
+  .box-cookies {
+    position: fixed;
+    background: rgb(7, 7, 20);
+    width: 100%;
+    z-index: 10;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .box-cookies .msg-cookies,
+  .box-cookies .btn-cookies {
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .box-cookies .btn-cookies {
+    background: #e53637;
+    cursor: pointer;
+    align-self: normal;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .box-cookies {
+      flex-direction: column;
+    }
+  }
